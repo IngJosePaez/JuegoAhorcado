@@ -101,7 +101,7 @@ const newGame = () => {
       {
         letters.map( (letter) => (
           <button 
-          onClick={ () => checkLetter( letter)}
+          onClick={ () => checkLetter( letter )}
             key={letter}>
             {letter} 
           </button>
